@@ -348,6 +348,34 @@ button {
     text-align: center;
 }
 
+.team-member-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #ffffff;
+    margin: auto;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid none;
+    border-radius: 50%;
+    background: #4D5AE5;
+    display: flex;
+}
+
 /* Portfolio styles */
 
 .portfolio {
