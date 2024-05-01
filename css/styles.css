@@ -432,17 +432,9 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    display: none;
-    transform: translateX(-100%);
+    transform: translateY(100%);
     transition: transform 250ms ease-in-out;
     overflow: hidden;
-}
-
-.portfolio-image-container .after p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #fff;
     padding: 32px;
 }
@@ -450,7 +442,7 @@ button {
 .portfolio-image-container:hover .after {
     display: block;
     background: #4D5AE5;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .portfolio-item-info {
@@ -487,9 +479,16 @@ button {
     padding: 100px 0;
 }
 
-.footer-block {
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.footer-logo-wrapper {
     display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
 .footer-logo {
@@ -507,4 +506,31 @@ button {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-social-media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 100px;
+}
+
+.social-media-another-block {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footer-social-media-headline {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.icon-footer-hover:hover {
+    background: #31D0AA;
 }
