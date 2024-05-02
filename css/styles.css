@@ -553,6 +553,16 @@ button {
     color: #fff;
 }
 
+.icon-footer-align {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #ffffff;
+    margin: auto;
+}
+
 .icon-footer-hover:hover {
     background: #31D0AA;
 }
