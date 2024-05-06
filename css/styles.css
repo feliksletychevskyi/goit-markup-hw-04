@@ -537,6 +537,7 @@ button {
     flex-direction: column;
     gap: 16px;
     margin-top: 100px;
+    margin-right:500px;
 }
 
 .footer-social-media-headline {
