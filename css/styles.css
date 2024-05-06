@@ -369,7 +369,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 .icon {
@@ -508,7 +508,7 @@ button {
 
 .footer-wrapper {
     display: flex;
-    align-items: baseline;
+    flex-direction: row;
 }
 
 .footer-logo-wrapper {
